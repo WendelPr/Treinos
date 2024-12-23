@@ -111,7 +111,7 @@ function editarTreino(month) {
         let editForm = document.createElement('div');
         editForm.id = `edit-${month}`;
         editForm.innerHTML = `
-            <h3>Editar Treinos para ${month}</h3>
+            <h3>Editar treinos de ${month}</h3>
             ${Object.keys(dataToEdit)
                 .filter(key => key !== 'month')
                 .map(key => `
