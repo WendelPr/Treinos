@@ -1,0 +1,108 @@
+/* Estilização básica */
+body{
+    background-image: url(./gatinhos.png);
+    background-size: cover;
+    background-position: center; 
+    margin: 0 200px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #ffffff; 
+    
+    
+}
+main{
+    background-color: #dd8fd95e;
+    padding: 100px;
+    padding-top: 10px;
+    box-shadow: 0 0 5px 0px rgba(121, 52, 100, 0.9);
+}
+h1{ 
+    text-align: center;
+    color: #dfdfdf;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+h2{
+    background-color: #754d73;
+    padding: 0 8px;
+    color: #fff0fb;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+h3{
+    margin: 0 0 8px;
+}
+table {
+    background-color: #eee;
+    margin-top: 20px;
+    border-collapse: collapse;
+    
+}
+th, td {
+    padding: 8px 12px;
+    border: 1px solid #6b2c68;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #611b5d;
+}
+th {
+    background-color: #cfa7cdaf;
+}
+
+fieldset{
+    background-color: #eeeeeec7;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #4e0d4b;
+    font-weight: 180;
+    margin: 8px 0;
+    margin-right: 80%;
+}
+select, input{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #4e0d4b;
+}
+input{
+    text-align: center;
+    width: 25px;
+}
+input[type="number"]::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+    margin: 0;
+}
+button{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #eee;
+    background-color: #4e0d4b;
+    border-radius: 3px;
+    border-width: 0;
+    padding: 5px;
+}
+button:hover{
+    background-color: #360734;
+}
+
+
+@media(max-width: 1400px){
+    body {
+        margin: 0;
+        padding: 0 8px;
+        box-shadow: none;
+    }
+    th, td {
+        padding: 8px 12px;
+    }
+}
+@media(max-width: 1040px){
+    th, td {
+        padding: 2px 6px;
+    }
+    main{
+        padding: 8px;
+    }
+    fieldset{
+        margin-right: 0;
+    }
+
+}
+@media(max-width: 818px){
+    th, td {
+        padding: 1px 3px;
+    }
+}
